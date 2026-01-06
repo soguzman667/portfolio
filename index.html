@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma page personnelle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+
+<header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+        <a href="#profil">Profil</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="profil" class="section">
+    <img src="https://www.openwork.fr/wp-content/uploads/2024/08/le-portage-salarial-developpeur-web-1.jpg  " alt="Photo de profil" class="profile-pic">
+    <h2>Mouhamadou Moustapha Abdou Khadre So</h2>
+    <p><p>
+Je suis étudiant et développeur web débutant.  
+J’apprends à créer des sites modernes et responsives avec HTML, CSS et JavaScript.  
+Mon objectif est de progresser chaque jour et de construire des projets concrets.
+</p>
+</p>
+</section>
+
+<section id="competences" class="section">
+    <h2>Compétences</h2>
+
+    <ul>
+        <li><strong>HTML</strong> – Structure des pages web</li>
+        <li><strong>CSS</strong> – Design, responsive, animations</li>
+        <li><strong>JavaScript</strong> – Interactions, formulaires, DOM</li>
+        <li><strong>Outils</strong> – Visual Studio Code, GitHub (bases)</li>
+    </ul>
+</section>
+
+
+<section id="projets" class="section">
+    <h2>Projets</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Page de présentation</h3>
+            <p>Première page HTML/CSS avec image et design simple.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Formulaire de contact</h3>
+            <p>Formulaire avec validation JavaScript et message de confirmation.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Mini portfolio</h3>
+            <p>Site personnel responsive avec navigation et animations.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+
+    <form id="contact-form">
+        <input type="text" placeholder="Nom" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <p id="form-message"></p>
+</section>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
