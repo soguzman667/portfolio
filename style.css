@@ -139,3 +139,31 @@ button:hover {
     font-size: 14px;
     color: #555;
 }
+.contact-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.email {
+    background: #555;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
